@@ -39,7 +39,7 @@ I'm a passionate learner and aspiring AI engineer with a strong interest in **Cy
 
 ## 📫 Let's Connect
 
-- [[🔗 https://www.linkedin.com/in/huzaifa-ansari-830988148]]
+- 🔗 https://www.linkedin.com/in/huzaifa-ansari-830988148
 - 📨 Reach out via GitHub Issues or LinkedIn DMs
 
 ---

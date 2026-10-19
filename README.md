@@ -271,7 +271,7 @@ flowchart TD
 * 🥇 **Kaggle Datasets Expert** — Global Rank **#185** *(Top 0.3%)*
 * 🥇 **Kaggle Notebooks Expert** — Global Rank **#752** *(Top 1.25%)*
 * 🎖️ **18 Medals Earned** (16 Code Medals • 2 Dataset Medals)
-* 🎓 **Academic Standing:** CPI **9.62** @ IIT Patna (B.Tech CS)
+* 🎓 **Academic Standing:** CPI **9.62** @ IIT Patna
 
 </td>
 </tr>

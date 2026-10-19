@@ -12,10 +12,10 @@
 <br>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/md-huzaifa-ansari/"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/md-huzaifa-ansari-830988148/"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
   <a href="https://www.kaggle.com/neurocipher"><img src="https://img.shields.io/badge/KAGGLE-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>&nbsp;
   <a href="https://github.com/AnsariHuzaif97"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>&nbsp;
-  <a href="mailto:huzaifaofficial80@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
+  <a href="mailto:ansariwadood85@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
   <a href="https://www.iitp.ac.in/"><img src="https://img.shields.io/badge/IIT_PATNA-0052CC?style=for-the-badge&logo=academia&logoColor=white" alt="IIT Patna" /></a>
 </p>
 
@@ -271,7 +271,7 @@ flowchart TD
 * 🥇 **Kaggle Datasets Expert** — Global Rank **#185** *(Top 0.3%)*
 * 🥇 **Kaggle Notebooks Expert** — Global Rank **#752** *(Top 1.25%)*
 * 🎖️ **18 Medals Earned** (16 Code Medals • 2 Dataset Medals)
-* 🎓 **Academic Standing:** CPI **9.62** @ IIT Patna
+* 🎓 **Academic Standing:** CPI **9.62** @ IIT Patna (B.Tech CS)
 
 </td>
 </tr>
@@ -280,9 +280,10 @@ flowchart TD
 <div align="center">
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/md-huzaifa-ansari/"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/md-huzaifa-ansari-830988148/"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
   <a href="https://www.kaggle.com/neurocipher"><img src="https://img.shields.io/badge/FOLLOW_ON_KAGGLE-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>&nbsp;
-  <a href="https://github.com/AnsariHuzaif97"><img src="https://img.shields.io/badge/EXPLORE_GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/AnsariHuzaif97"><img src="https://img.shields.io/badge/EXPLORE_GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>&nbsp;
+  <a href="mailto:ansariwadood85@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Get_in_Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <table>

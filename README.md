@@ -184,7 +184,7 @@ flowchart TD
 </td>
 <td width="50%" valign="top">
 
-### 🔬 [`numpy-internals-guide`](https://github.com/AnsariHuzaif97/numpy-internals-guide)
+### 🔬 [`numpy-internals-guide`](https://github.com/AnsariHuzaif97/Advanced-NumPy-Research)
 **Low-Level Memory & Vectorization Mechanics**
 * Systems-level profiling of C-contiguous vs. Fortran memory layouts.
 * In-depth exploration of N-dimensional tensor strides and zero-copy slicing.

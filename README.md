@@ -217,9 +217,13 @@ algorithms: NumPy Internals · Convex QP
 
 ---
 
-### 📈 GitHub Metrics & Stats Dashboard
+### 📈 GitHub Metrics & Analytics Dashboard
 
 <div align="center">
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnsariHuzaif97&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph" />
+</p>
 
 <table border="0">
 <tr>
@@ -227,24 +231,91 @@ algorithms: NumPy Internals · Convex QP
   <img src="https://github-readme-stats.vercel.app/api?username=AnsariHuzaif97&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="100%" alt="GitHub Stats" />
 </td>
 <td width="50%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnsariHuzaif97&layout=compact&theme=tokyonight&hide_border=true" width="100%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnsariHuzaif97&layout=donut&theme=tokyonight&hide_border=true" width="100%" alt="Top Languages" />
 </td>
 </tr>
 </table>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AnsariHuzaif97&theme=tokyonight&hide_border=true" width="70%" alt="GitHub Streak" />
+<table border="0">
+<tr>
+<td width="50%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnsariHuzaif97&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
+</td>
+<td width="50%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AnsariHuzaif97&theme=tokyonight&utcOffset=5.5" width="100%" alt="Productive Time" />
+</td>
+</tr>
+</table>
+
+<br>
+
+#### 🐍 Watch My Contributions Get Eaten
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnsariHuzaif97/AnsariHuzaif97/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnsariHuzaif97/AnsariHuzaif97/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/AnsariHuzaif97/AnsariHuzaif97/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
 
 </div>
 
 ---
 
+### 🎙️ Content, Community & Recognition
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### ✍️ Technical Research & Writing
+* **Author:** Deep-dive systems guides on *NumPy Internals & Vectorized Memory*.
+* **Open Source Baselines:** 30+ public algorithmic pipelines and exploratory engines.
+* **Generative Tabular Research:** Mathematical formulations of GAIN with minimax loss.
+* **Curated Data Assets:** 3 production datasets with schema invariants & zero leakage.
+
+</td>
+<td width="34%" valign="top">
+
+#### 🔬 Systems & Open Source
+* **AegisCore Architecture:** Decoupled FastAPI microservice serving with sub-10ms SLAs.
+* **Community Footprint:** Adopted across **540+ forks** and **640+ upvotes** globally.
+* **Rigorous Validation:** Enforcement of leakage-free stratified group cross-validation.
+* **Academic Foundations:** Computer Science peer collaboration at **IIT Patna**.
+
+</td>
+<td width="33%" valign="top">
+
+#### 🏅 Honors & Recognition
+* 🥇 **Kaggle Datasets Expert** — Global Rank **#185** *(Top 0.3%)*
+* 🥇 **Kaggle Notebooks Expert** — Global Rank **#752** *(Top 1.25%)*
+* 🎖️ **18 Medals Earned** (16 Code Medals • 2 Dataset Medals)
+* 🎓 **Academic Standing:** CPI **9.62** @ IIT Patna (B.Tech CS)
+
+</td>
+</tr>
+</table>
+
 <div align="center">
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/md-huzaifa-ansari/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
-  <a href="https://www.kaggle.com/neurocipher"><img src="https://img.shields.io/badge/KAGGLE-Follow_NeuroCipher-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>&nbsp;
-  <a href="https://github.com/AnsariHuzaif97"><img src="https://img.shields.io/badge/GITHUB-AnsariHuzaif97-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>&nbsp;
-  <a href="mailto:huzaifaofficial80@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Get_in_Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/md-huzaifa-ansari/"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://www.kaggle.com/neurocipher"><img src="https://img.shields.io/badge/FOLLOW_ON_KAGGLE-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>&nbsp;
+  <a href="https://github.com/AnsariHuzaif97"><img src="https://img.shields.io/badge/EXPLORE_GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
+
+<table>
+<tr>
+<td align="center">
+  <br>
+  <i>"Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration."</i>
+  <br><br>
+  <b>— Stan Kelly-Bootle</b>
+  <br><br>
+</td>
+</tr>
+</table>
+
+<p><i>Thanks for visiting — let's build production-grade ML systems together.</i></p>
+<p>⭐ <i>If you find my work useful, consider following or starring a repo.</i></p>
 
 </div>

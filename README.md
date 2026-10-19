@@ -2,49 +2,55 @@
 
 # Md Huzaifa Ansari
 
-### Machine Learning Engineer • Production Pipelines & Statistical ML
+### Machine Learning Engineer • Systems & Production ML
 **Bachelor in Computer Science @ Indian Institute of Technology Patna | CPI: 9.62**
 
 [![Kaggle Notebooks Expert](https://img.shields.io/badge/Kaggle_Notebooks_Expert-Rank_%23752_(Top_1.25%25)-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/neurocipher)
 [![Kaggle Datasets Expert](https://img.shields.io/badge/Kaggle_Datasets_Expert-Rank_%23185_(Top_0.3%25)-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/neurocipher)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-huzaifa-ansari/)
-[![GitHub Stars](https://img.shields.io/badge/GitHub-Stars_&_Forks-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![GitHub Stars](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+
+<br>
+
+[![Architecture](https://img.shields.io/badge/Architecture-Decoupled_Microservices-0052CC?style=flat-square)](#)
+[![Latency SLA](https://img.shields.io/badge/Inference_SLA-Sub--10ms_FastAPI-blueviolet?style=flat-square)](#)
+[![Deployment](https://img.shields.io/badge/Deployment-Containerized_Docker-0db7ed?style=flat-square&logo=docker&logoColor=white)](#)
+[![Optimization](https://img.shields.io/badge/Optimization-Convex_KKT_%26_Vectorized_Ops-success?style=flat-square)](#)
 
 </div>
 
 ---
 
-### 🏛️ Core Engineering Focus
+### 🏛️ Core Engineering & Systems Focus
 
-* **End-to-End Predictive Pipelines:** Engineering decoupled, production pipeline architectures featuring modular OOP principles, robust model artifact serialization (Joblib/ONNX), automated metric validation, and containerized microservice deployment via an **Asynchronous Inference Engine** (FastAPI/Uvicorn) with **sub-10ms latency benchmarks**.
-* **Generative Imputation Frameworks:** Developing scalable deep generative architectures (GAIN) across PyTorch and TensorFlow for high-dimensional missing-data reconstruction, incorporating custom minimax loss formulations and **Optuna** Bayesian hyperparameter optimization.
-* **High-Performance Algorithmic Engineering:** Implementing statistical learning foundations directly from first principles via **low-level vectorized mechanics**, pure C-contiguous NumPy array manipulations, and convex quadratic programming under Karush-Kuhn-Tucker (KKT) boundary conditions.
-* **Explainable AI (XAI) & Model Auditing:** Architecting transparent model auditing layers with TreeSHAP and KernelSHAP feature attribution engines, backed by strictly enforced **leakage-free stratified cross-validation** and temporal split isolation.
+* **Enterprise Anomaly & Fraud Intelligence:** Architected **AegisCore**, an enterprise-grade fraud intelligence platform leveraging a decoupled **FastAPI** REST microservice architecture, **Docker** containerization, and automated **SMOTE** class rebalancing. Engineered for **sub-10ms inference latency** with persistent, thread-safe transaction logging to **SQLite**.
+* **Generative Imputation Frameworks:** Developed scalable deep generative pipelines in **PyTorch** and **TensorFlow** implementing **Generative Adversarial Imputation Networks (GAIN)** for high-dimensional tabular data. Formulated custom minimax objective functions $V(G, D)$, partial missingness hint matrices $H$, and automated Bayesian hyperparameter tuning with **Optuna**.
+* **High-Performance Algorithmic Engineering:** Derived and implemented statistical machine learning models strictly from first principles using pure Python and **C-contiguous NumPy arrays**. Formulated Support Vector Machine (SVM) dual representations using Lagrange multipliers, solved via convex **Quadratic Programming (QP)** with explicit verification of **Karush-Kuhn-Tucker (KKT)** boundary conditions.
+* **Low-Level Array Systems & Memory:** Researched and profiled high-throughput tensor computing mechanics, analyzing **C-order vs. Fortran-order** memory layouts, N-dimensional strides, zero-copy pointer transformations, and SIMD/BLAS cache locality to maximize numerical execution speed.
 
 ---
 
-### ⚙️ Production Machine Learning Pipeline Architecture
+### ⚙️ AegisCore: Microservice & Inference Architecture
 
 ```text
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                   END-TO-END PREDICTIVE INFERENCE PIPELINE                                    │
-└────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-        │
-        ▼
- ┌──────────────┐      ┌─────────────────────────────┐      ┌────────────────────────────┐
- │ DATA INGEST  │ ───> │  PREPROCESSING & AUDIT      │ ───> │  MODEL SERVING ENGINE      │
- │ • Batch/REST │      │  • Leakage-Free Splits      │      │  • Asynchronous FastAPI    │
- │ • Schema Val │      │  • Generative Imputation    │      │  • Sub-10ms Latency SLA    │
- │ • Strict DOH │      │  • C-Contiguous Transforms  │      │  • Serialized Artifacts    │
- └──────────────┘      └─────────────────────────────┘      └────────────────────────────┘
-                                                                           │
-                                                                           ▼
- ┌──────────────┐      ┌─────────────────────────────┐      ┌────────────────────────────┐
- │  OBSERVE &   │ <─── │   CI/CD & CONTAINERIZATION  │ <─── │   EXPLAINABLE AI (XAI)     │
- │  METRICS     │      │   • Docker Containerization │      │   • Local/Global TreeSHAP  │
- │  • Drift Mon │      │   • Regression Test Suites  │      │   • Attribution Vectors    │
- │  • Telemetry │      │   • Artifact Versioning     │      │   • Feature Audit Trails   │
- └──────────────┘      └─────────────────────────────┘      └────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                              AEGISCORE CONTAINERIZED INFERENCE RUNTIME                                 │
+└────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+                                                    │
+                                                    ▼
+┌──────────────────────┐             ┌──────────────────────────────┐
+│   CLIENT DASHBOARD   │ ──(HTTP)──> │      REST API (FASTAPI)      │
+│  • Transaction Event │             │  • Asynchronous ASGI Workers │
+│  • Batch Ingestion   │             │  • Strict Pydantic Schema    │
+└──────────────────────┘             └──────────────────────────────┘
+                                                    │
+                                                    ▼
+┌──────────────────────┐             ┌──────────────────────────────┐
+│ TRANSACTION LOGGING  │ <──(Async)─ │   ML INFERENCE ENGINE        │
+│  • SQLite Persistence│             │  • Serialized Artifact (.pkl)│
+│  • Real-Time Auditing│             │  • SMOTE Balanced Pipeline   │
+│  • Fraud Telemetry   │             │  • Sub-10ms Execution SLA    │
+└──────────────────────┘             └──────────────────────────────┘
 ```
 
 ---
@@ -53,10 +59,10 @@
 
 | Repository Name | MLE Architecture & Systems Focus | Tech Stack | Production Status |
 | :--- | :--- | :--- | :--- |
-| **[`edubuddy-analytics-engine`](https://github.com/)** | **End-to-End Predictive Microservice**<br>• Fully decoupled feature engineering and scoring pipeline<br>• Asynchronous REST API serving with automated payload validation<br>• Real-time model interpretability layer using TreeSHAP | `Python 3.10`<br>`FastAPI`<br>`XGBoost`<br>`SHAP`<br>`Docker` | `Live Demo`<br>`Hugging Face Spaces`<br>`Sub-10ms SLA` |
-| **[`gain-tabular-imputation`](https://github.com/)** | **Generative Adversarial Imputation Engine**<br>• Custom Generator-Discriminator optimization loop with Hint mechanisms<br>• Minimax loss convergence auditing for non-random missingness<br>• Automated hyperparameter tuning via Optuna Bayesian search | `PyTorch`<br>`TensorFlow`<br>`Optuna`<br>`NumPy`<br>`SciPy` | `Pip-Installable`<br>`Production-Grade`<br>`PyPI Package` |
-| **[`svm-from-scratch-py`](https://github.com/)** | **Convex Dual Optimization Engine**<br>• Dual Lagrangian formulation solved via quadratic programming<br>• Analytical verification of KKT stationarity, primal, and dual feasibility<br>• Fully vectorized C-order Gram matrix computation | `Python`<br>`NumPy (Vectorized)`<br>`SciPy (QP)`<br>`Matplotlib` | `Validated`<br>`Algorithmic Engine`<br>`Zero-Dep Core` |
-| **[`numpy-internals-guide`](https://github.com/)** | **Low-Level Memory Layout & Vectorization Guide**<br>• Systems-level profiling of C-contiguous vs. Fortran memory strides<br>• Zero-copy array slicing, broadcasting rules, and cache-locality audits<br>• High-throughput numerical transformations for low-latency ML | `C-Python API`<br>`NumPy Internals`<br>`Memory Profiler`<br>`SIMD` | `Reference Spec`<br>`Open Source`<br>`Systems Guide` |
+| **[`aegiscore-fraud-detection`](https://github.com/)** | **Enterprise Fraud Intelligence Platform**<br>• Decoupled microservice architecture with low-latency REST endpoints<br>• Synthetic Minority Over-sampling Technique (SMOTE) pipeline<br>• Serialized inference engine (`.pkl`) with async SQLite transaction logging | `Python 3.10`<br>`FastAPI`<br>`Docker`<br>`SMOTE`<br>`SQLite` | ![Production](https://img.shields.io/badge/Deployment-Dockerized-0db7ed?style=flat-square)<br>`Sub-10ms Latency`<br>`Microservice` |
+| **[`gain-tabular-imputation`](https://github.com/)** | **Generative Adversarial Imputation Engine**<br>• Implements minimax loss $V(G, D)$ with Hint matrix $H$ conditioning<br>• Reconstruction of high-dimensional non-random tabular missingness<br>• Automated hyperparameter convergence optimization via Optuna | `PyTorch`<br>`TensorFlow`<br>`Optuna`<br>`NumPy`<br>`SciPy` | ![Package](https://img.shields.io/badge/Distribution-Pip_Installable-3776AB?style=flat-square&logo=pypi&logoColor=white)<br>`Production-Grade`<br>`PyPI Ready` |
+| **[`svm-from-scratch-py`](https://github.com/)** | **Dual Convex Optimization Engine**<br>• Vectorized dual Lagrangian formulation solved via quadratic programming<br>• Explicit verification of KKT stationarity, primal, and dual feasibility<br>• Pure algorithmic implementation without high-level ML dependencies | `Python`<br>`NumPy (C-Contiguous)`<br>`SciPy (QP)`<br>`Matplotlib` | ![Algorithmic](https://img.shields.io/badge/Verification-KKT_Validated-success?style=flat-square)<br>`First Principles`<br>`Zero-Dep Core` |
+| **[`numpy-internals-guide`](https://github.com/)** | **Low-Level Memory & Vectorization Mechanics**<br>• Systems-level profiling of C vs. Fortran memory contiguity and strides<br>• Zero-copy array slicing, broadcasting mechanics, and cache locality<br>• Benchmark suite for optimizing vectorized matrix operations | `C-Python API`<br>`NumPy Internals`<br>`Memory Profiler`<br>`BLAS` | ![Technical Spec](https://img.shields.io/badge/Specification-Open_Source-9cf?style=flat-square)<br>`Systems Guide`<br>`Benchmarked` |
 
 ---
 
@@ -64,11 +70,11 @@
 
 <div align="center">
 
-| Track | Global Standing | Medals & Output | Engineering Impact |
-| :--- | :--- | :--- | :--- |
-| **Kaggle Notebooks** | **Rank #752** *(Top 1.25% Globally)* | **16 Medals**<br>30 Public Production Notebooks | High-performance pipelines, leakage-free cross-validation architectures, and automated EDA engines. |
-| **Kaggle Datasets** | **Rank #185** *(Top 0.3% Globally)* | **2 Medals**<br>3 Curated High-Utility Datasets | Scalable tabular datasets designed with schema contracts, zero data leakage, and rigorous metadata definitions. |
-| **Community Engagement** | **Global Contributor** | **640+ Upvotes**<br>540+ Production Forks | Adopted by practitioners for production baseline implementations, statistical modeling, and XAI workflows. |
+| Track | Global Standing | Volume & Recognitions | Engineering Impact |
+| :--- | :---: | :---: | :--- |
+| **Kaggle Notebooks** | **Rank #752**<br>*(Top 1.25% Globally)* | **16 Medals**<br>30 Public Production Notebooks | End-to-end predictive pipelines, leakage-free cross-validation architectures, and production exploratory algorithms. |
+| **Kaggle Datasets** | **Rank #185**<br>*(Top 0.3% Globally)* | **2 Medals**<br>3 Curated Datasets | High-utility tabular datasets built with schema constraints, zero data leakage, and rigorous statistical metadata. |
+| **Community Engagement** | **Global Contributor**<br>*(NeuroCipher)* | **640+ Upvotes**<br>540+ Forks | Consistently utilized by practitioners for machine learning baselines, numerical foundations, and pipeline design. |
 
 </div>
 
@@ -77,19 +83,19 @@
 ### 🛠️ Production Stack & Systems Taxonomy
 
 ```text
-  [Core Languages]      Python (AsyncIO, CPython), C++, SQL
-  [Machine Learning]    PyTorch, TensorFlow, XGBoost, LightGBM, Scikit-learn
-  [Systems & Serving]   FastAPI, Uvicorn (ASGI), Docker, ONNX Runtime, REST APIs
-  [Optimization & Math] SciPy (Convex Optimization), Optuna, NumPy (Striding/BLAS)
-  [XAI & Auditing]      SHAP (Kernel/Tree), Permutation Auditing, Data Leakage Validation
-  [Tooling & MLOps]     Git, GitHub Actions CI/CD, Linux/POSIX Shell, Hugging Face Spaces
+  [Core Languages]      Python (AsyncIO, CPython), C++, SQL, Bash
+  [Machine Learning]    PyTorch, TensorFlow, Scikit-learn, XGBoost, LightGBM, Imbalanced-Learn (SMOTE)
+  [Systems & Serving]   FastAPI, Uvicorn (ASGI), Docker, REST APIs, SQLite, ONNX Runtime
+  [Optimization & Math] SciPy (Convex QP / Dual Lagrange), Optuna (Bayesian Search), NumPy (Striding / BLAS)
+  [Software Standards]  Git, GitHub Actions CI/CD, Modular OOP, Unit Testing, Pydantic Schema Enforcement
 ```
 
 ---
 
 <div align="center">
 
-**Open for Staff Machine Learning Engineer, Applied Scientist, and ML Systems Architect Opportunities.**  
-*Available for high-throughput inference engineering, mathematical ML systems, and scalable pipeline development.*
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-huzaifa-ansari/)
+[![Kaggle Badge](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/neurocipher)
+[![GitHub Repositories](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 
 </div>

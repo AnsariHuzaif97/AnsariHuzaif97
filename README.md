@@ -173,7 +173,7 @@ flowchart TD
 <tr>
 <td width="50%" valign="top">
 
-### 🧮 [`svm-from-scratch-py`](https://github.com/AnsariHuzaif97/svm-from-scratch-py)
+### 🧮 [`svm-from-scratch-py`](https://github.com/AnsariHuzaif97/SVM-Mathematical-Derivation)
 **Dual Convex Optimization Engine**
 * Pure algorithmic Support Vector Machine implementation from first principles.
 * Dual Lagrangian formulation solved via SciPy quadratic programming.

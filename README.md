@@ -125,25 +125,20 @@ algorithms: NumPy Internals · Convex QP
 
 ### ⚙️ AegisCore: Microservice & Inference Architecture
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                    AEGISCORE CONTAINERIZED RUNTIME ENVIRONMENT                                  │
-└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-                                                         │
-                                                         ▼
-┌──────────────────────────┐               ┌──────────────────────────────┐
-│     CLIENT DASHBOARD     │ ───(HTTP)───> │      REST API (FASTAPI)      │
-│  • Transaction Streams   │               │  • Asynchronous ASGI Workers │
-│  • High-Throughput Batch │               │  • Strict Pydantic Schema    │
-└──────────────────────────┘               └──────────────────────────────┘
-                                                         │
-                                                         ▼
-┌──────────────────────────┐               ┌──────────────────────────────┐
-│   TRANSACTION LOGGING    │ <──(Async)─── │     ML INFERENCE ENGINE      │
-│  • SQLite Persistence    │               │  • Serialized Artifact (.pkl)│
-│  • Real-Time Auditing    │               │  • SMOTE Balanced Resampling │
-│  • Telemetry & Metrics   │               │  • Sub-10ms Latency SLA      │
-└──────────────────────────┘               └──────────────────────────────┘
+```mermaid
+flowchart TD
+    A["Client UI - Dashboard"]
+    B["FastAPI Backend"]
+    C{"ML Inference Engine"}
+    D[("SQLite Database")]
+    E["Serialized Artifact (.pkl)"]
+
+    A -->|"REST API - JSON"| B
+    B -->|"Response"| A
+    B --> C
+    C -->|"Returns Prediction"| B
+    B -->|"Logs Transaction"| D
+    C -->|"Loads"| E
 ```
 
 ---

@@ -111,13 +111,13 @@ algorithms: NumPy Internals · Convex QP
   <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,docker,sqlite,git,linux" alt="Core Technologies" />
 </p>
 
-| Category | Production Technologies & Tooling |
+| Category | Technologies & Tools with Official Symbols |
 | :--- | :--- |
-| **Languages & Core** | `Python (AsyncIO, CPython)` • `C++` • `SQL` • `Bash` • `Linux / POSIX` |
-| **Machine Learning & DL** | `PyTorch` • `TensorFlow` • `Scikit-learn` • `XGBoost` • `LightGBM` • `Imbalanced-Learn (SMOTE)` |
-| **Serving & Infrastructure** | `FastAPI` • `Uvicorn (ASGI)` • `Docker` • `SQLite` • `REST APIs` • `ONNX Runtime` |
-| **Optimization & Numerics** | `NumPy (C-Contiguous / Striding)` • `SciPy (Convex QP / Lagrange)` • `Optuna (Bayesian HPO)` |
-| **Auditing & Software Standards**| `TreeSHAP` • `Pydantic Schema Validation` • `GitHub Actions CI/CD` • `Modular OOP` |
+| **🧠 Languages & Core** | <a href="#"><img src="https://skillicons.dev/icons?i=py,cpp,bash,git,linux" alt="Languages" /></a><br><a href="#"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /></a> |
+| **🤖 Machine Learning & DL** | <a href="#"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" alt="ML Frameworks" /></a><br><a href="#"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/XGBoost-EB392E?style=flat-square&logo=xgboost&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/LightGBM-008080?style=flat-square&logo=lightning&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Imbalanced--Learn_(SMOTE)-009688?style=flat-square&logo=python&logoColor=white" /></a> |
+| **☁️ Systems & Serving** | <a href="#"><img src="https://skillicons.dev/icons?i=fastapi,docker,sqlite" alt="Serving & Infra" /></a><br><a href="#"><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Uvicorn_(ASGI)-499848?style=flat-square&logo=gunicorn&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/REST_APIs-0052CC?style=flat-square&logo=postman&logoColor=white" /></a> |
+| **🧮 Optimization & Numerics** | <a href="#"><img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Optuna-1E50A2?style=flat-square&logo=python&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Convex_QP-success?style=flat-square&logo=scipy&logoColor=white" /></a> |
+| **🔍 Auditing & Code Standards** | <a href="#"><img src="https://img.shields.io/badge/TreeSHAP-FF5722?style=flat-square&logo=openaccess&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/Unit_Testing-0A66C2?style=flat-square&logo=pytest&logoColor=white" /></a> |
 
 </div>
 
@@ -221,10 +221,6 @@ algorithms: NumPy Internals · Convex QP
 
 <div align="center">
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnsariHuzaif97&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph" />
-</p>
-
 <table border="0">
 <tr>
 <td width="50%">
@@ -247,15 +243,6 @@ algorithms: NumPy Internals · Convex QP
 </tr>
 </table>
 
-<br>
-
-#### 🐍 Watch My Contributions Get Eaten
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnsariHuzaif97/AnsariHuzaif97/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnsariHuzaif97/AnsariHuzaif97/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/AnsariHuzaif97/AnsariHuzaif97/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
 
 </div>
 

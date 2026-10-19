@@ -1,134 +1,95 @@
-<!-- FLOATING HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f2fe&customColorList=1&height=250&section=header&text=Md%20Huzaifa%20Ansari&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Machine%20Learning%20Intern%20•%20Data%20Analytics%20Intern%20•%20Kaggle%20Expert&descAlignY=60&descAlign=50" alt="Header" />
+
+# Md Huzaifa Ansari
+
+### Machine Learning Engineer • Production Pipelines & Statistical ML
+**Bachelor in Computer Science @ Indian Institute of Technology Patna | CPI: 9.62**
+
+[![Kaggle Notebooks Expert](https://img.shields.io/badge/Kaggle_Notebooks_Expert-Rank_%23752_(Top_1.25%25)-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/neurocipher)
+[![Kaggle Datasets Expert](https://img.shields.io/badge/Kaggle_Datasets_Expert-Rank_%23185_(Top_0.3%25)-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/neurocipher)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-huzaifa-ansari/)
+[![GitHub Stars](https://img.shields.io/badge/GitHub-Stars_&_Forks-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+
 </div>
 
-<!-- VIEWS & SOCIAL CONNECTION -->
+---
+
+### 🏛️ Core Engineering Focus
+
+* **End-to-End Predictive Pipelines:** Engineering decoupled, production pipeline architectures featuring modular OOP principles, robust model artifact serialization (Joblib/ONNX), automated metric validation, and containerized microservice deployment via an **Asynchronous Inference Engine** (FastAPI/Uvicorn) with **sub-10ms latency benchmarks**.
+* **Generative Imputation Frameworks:** Developing scalable deep generative architectures (GAIN) across PyTorch and TensorFlow for high-dimensional missing-data reconstruction, incorporating custom minimax loss formulations and **Optuna** Bayesian hyperparameter optimization.
+* **High-Performance Algorithmic Engineering:** Implementing statistical learning foundations directly from first principles via **low-level vectorized mechanics**, pure C-contiguous NumPy array manipulations, and convex quadratic programming under Karush-Kuhn-Tucker (KKT) boundary conditions.
+* **Explainable AI (XAI) & Model Auditing:** Architecting transparent model auditing layers with TreeSHAP and KernelSHAP feature attribution engines, backed by strictly enforced **leakage-free stratified cross-validation** and temporal split isolation.
+
+---
+
+### ⚙️ Production Machine Learning Pipeline Architecture
+
+```text
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                   END-TO-END PREDICTIVE INFERENCE PIPELINE                                    │
+└────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+        │
+        ▼
+ ┌──────────────┐      ┌─────────────────────────────┐      ┌────────────────────────────┐
+ │ DATA INGEST  │ ───> │  PREPROCESSING & AUDIT      │ ───> │  MODEL SERVING ENGINE      │
+ │ • Batch/REST │      │  • Leakage-Free Splits      │      │  • Asynchronous FastAPI    │
+ │ • Schema Val │      │  • Generative Imputation    │      │  • Sub-10ms Latency SLA    │
+ │ • Strict DOH │      │  • C-Contiguous Transforms  │      │  • Serialized Artifacts    │
+ └──────────────┘      └─────────────────────────────┘      └────────────────────────────┘
+                                                                           │
+                                                                           ▼
+ ┌──────────────┐      ┌─────────────────────────────┐      ┌────────────────────────────┐
+ │  OBSERVE &   │ <─── │   CI/CD & CONTAINERIZATION  │ <─── │   EXPLAINABLE AI (XAI)     │
+ │  METRICS     │      │   • Docker Containerization │      │   • Local/Global TreeSHAP  │
+ │  • Drift Mon │      │   • Regression Test Suites  │      │   • Attribution Vectors    │
+ │  • Telemetry │      │   • Artifact Versioning     │      │   • Feature Audit Trails   │
+ └──────────────┘      └─────────────────────────────┘      └────────────────────────────┘
+```
+
+---
+
+### 📦 Featured Production Repositories
+
+| Repository Name | MLE Architecture & Systems Focus | Tech Stack | Production Status |
+| :--- | :--- | :--- | :--- |
+| **[`edubuddy-analytics-engine`](https://github.com/)** | **End-to-End Predictive Microservice**<br>• Fully decoupled feature engineering and scoring pipeline<br>• Asynchronous REST API serving with automated payload validation<br>• Real-time model interpretability layer using TreeSHAP | `Python 3.10`<br>`FastAPI`<br>`XGBoost`<br>`SHAP`<br>`Docker` | `Live Demo`<br>`Hugging Face Spaces`<br>`Sub-10ms SLA` |
+| **[`gain-tabular-imputation`](https://github.com/)** | **Generative Adversarial Imputation Engine**<br>• Custom Generator-Discriminator optimization loop with Hint mechanisms<br>• Minimax loss convergence auditing for non-random missingness<br>• Automated hyperparameter tuning via Optuna Bayesian search | `PyTorch`<br>`TensorFlow`<br>`Optuna`<br>`NumPy`<br>`SciPy` | `Pip-Installable`<br>`Production-Grade`<br>`PyPI Package` |
+| **[`svm-from-scratch-py`](https://github.com/)** | **Convex Dual Optimization Engine**<br>• Dual Lagrangian formulation solved via quadratic programming<br>• Analytical verification of KKT stationarity, primal, and dual feasibility<br>• Fully vectorized C-order Gram matrix computation | `Python`<br>`NumPy (Vectorized)`<br>`SciPy (QP)`<br>`Matplotlib` | `Validated`<br>`Algorithmic Engine`<br>`Zero-Dep Core` |
+| **[`numpy-internals-guide`](https://github.com/)** | **Low-Level Memory Layout & Vectorization Guide**<br>• Systems-level profiling of C-contiguous vs. Fortran memory strides<br>• Zero-copy array slicing, broadcasting rules, and cache-locality audits<br>• High-throughput numerical transformations for low-latency ML | `C-Python API`<br>`NumPy Internals`<br>`Memory Profiler`<br>`SIMD` | `Reference Spec`<br>`Open Source`<br>`Systems Guide` |
+
+---
+
+### 📊 Competitive Machine Learning & Research Credentials
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=AnsariHuzaif97&color=00f2fe&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
-  <a href="https://www.kaggle.com/neurocipher" target="_blank">
-    <img src="https://img.shields.io/badge/Kaggle-Elite_Network-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle" />
-  </a>
-  <a href="https://www.linkedin.com/in/md-huzaifa-ansari-830988148/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:ansariwadood85@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+
+| Track | Global Standing | Medals & Output | Engineering Impact |
+| :--- | :--- | :--- | :--- |
+| **Kaggle Notebooks** | **Rank #752** *(Top 1.25% Globally)* | **16 Medals**<br>30 Public Production Notebooks | High-performance pipelines, leakage-free cross-validation architectures, and automated EDA engines. |
+| **Kaggle Datasets** | **Rank #185** *(Top 0.3% Globally)* | **2 Medals**<br>3 Curated High-Utility Datasets | Scalable tabular datasets designed with schema contracts, zero data leakage, and rigorous metadata definitions. |
+| **Community Engagement** | **Global Contributor** | **640+ Upvotes**<br>540+ Production Forks | Adopted by practitioners for production baseline implementations, statistical modeling, and XAI workflows. |
+
 </div>
 
-<br/>
+---
 
-<!-- THE FLOATING TYPING TEXT -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=22&pause=1000&color=00f2fe&center=true&vCenter=true&width=800&lines=🎓+Persuing+Bachelors+in+Computer+Science+@+IIT+Patna;🔥+Machine+Learning+%26+Data+Analytics+Intern;🏆+Kaggle+Notebooks+Expert+(Top+1.98%25);🚀+Building+Production-Ready+ML+Pipelines;🧠+Specializing+in+Explainable+AI+(XAI)" alt="Typing SVG" />
-</div>
+### 🛠️ Production Stack & Systems Taxonomy
 
-<br/>
+```text
+  [Core Languages]      Python (AsyncIO, CPython), C++, SQL
+  [Machine Learning]    PyTorch, TensorFlow, XGBoost, LightGBM, Scikit-learn
+  [Systems & Serving]   FastAPI, Uvicorn (ASGI), Docker, ONNX Runtime, REST APIs
+  [Optimization & Math] SciPy (Convex Optimization), Optuna, NumPy (Striding/BLAS)
+  [XAI & Auditing]      SHAP (Kernel/Tree), Permutation Auditing, Data Leakage Validation
+  [Tooling & MLOps]     Git, GitHub Actions CI/CD, Linux/POSIX Shell, Hugging Face Spaces
+```
 
-<!-- RECRUITER FRIENDLY ABOUT ME -->
-<h2 align="center">👨‍💻 Executive Summary</h2>
-<p align="center">
-  I am a data-driven <b>Machine Learning Engineer</b> with a strong analytical foundation from <b>IIT Patna</b>. With proven industry experience as an ML and Data Analytics Intern, I specialize in building <b>end-to-end predictive pipelines</b>, deploying models via FastAPI, and developing <b>Explainable AI (XAI)</b> solutions. Ranked in the <b>Top 1.98% globally on Kaggle</b>, I am passionate about transforming complex datasets into actionable, production-ready systems.
-</p>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-</div>
-
-<!-- THE COMMAND CENTER (HIGHLY ORGANIZED DASHBOARD) -->
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="35" /> The Command Center</h2>
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">⚙️ Technology Stack</h3>
-      <div align="center">
-        <img src="https://skillicons.dev/icons?i=py,tensorflow,scikit,mysql,fastapi,git,github,vscode,jupyter,pandas&perline=5" alt="Tech Stack" />
-        <br/><br/>
-        <img src="https://img.shields.io/badge/XGBoost-150458?style=flat-square&logo=xgboost&logoColor=white" />
-        <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white" />
-        <img src="https://img.shields.io/badge/SHAP-4479A1?style=flat-square" />
-      </div>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">📈 GitHub Telemetry</h3>
-      <div align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=AnsariHuzaif97&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00f2fe&text_color=c9d1d9&icon_color=00f2fe" width="100%" />
-      </div>
-    </td>
-  </tr>
-</table>
+---
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-</div>
 
-<!-- KAGGLE INTELLIGENCE MATRIX -->
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="35" /> Kaggle Intelligence Matrix</h2>
-<div align="center">
-  <table width="100%" style="border-radius: 10px;">
-    <tr>
-      <td align="center" width="33%" style="padding: 20px;">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" width="60" />
-        <br/><br/>
-        <b>Global Rank</b><br><br>
-        <img src="https://img.shields.io/badge/Top_1.98%25-00f2fe?style=for-the-badge&logo=codeforces&logoColor=white" /><br><br>
-        <p><i>#1,235 out of 62,363+</i></p>
-      </td>
-      <td align="center" width="33%" style="padding: 20px;">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="60" />
-        <br/><br/>
-        <b>Medals</b><br><br>
-        <img src="https://img.shields.io/badge/11_Medals-FF9900?style=for-the-badge&logo=kaggle&logoColor=white" /><br><br>
-        <p><i>Notebooks Expert</i></p>
-      </td>
-      <td align="center" width="33%" style="padding: 20px;">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="60" />
-        <br/><br/>
-        <b>Community Impact</b><br><br>
-        <img src="https://img.shields.io/badge/401+_Upvotes-2ea44f?style=for-the-badge" /> <br><br>
-        <p><i>364+ Forks / 19+ Notebooks</i></p>
-      </td>
-    </tr>
-  </table>
-</div>
+**Open for Staff Machine Learning Engineer, Applied Scientist, and ML Systems Architect Opportunities.**  
+*Available for high-throughput inference engineering, mathematical ML systems, and scalable pipeline development.*
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-</div>
-
-<!-- PRODUCTION DEPLOYMENTS -->
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Floppy%20Disk.png" width="35" /> Production Deployments</h2>
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🎓 EduBuddy Analytics Platform</h3>
-      <p align="center">AI system predicting student performance. Engineered an XGBoost predictive pipeline hitting <b>~0.96 ROC-AUC</b>.</p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/XGBoost-150458?style=flat-square" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square" />
-        <img src="https://img.shields.io/badge/SHAP-4479A1?style=flat-square" />
-      </div>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🧠 Neural Image Classifier</h3>
-      <p align="center">Convolutional Neural Networks leveraging TensorFlow & Keras, achieving <b>90%+ operational accuracy</b>.</p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square" />
-        <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square" />
-      </div>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- ACTIVITY GRAPH (DATA VISUALIZATION BOOM) -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnsariHuzaif97&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00f2fe&line=00f2fe&point=c9d1d9" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f2fe&height=100&section=footer" />
 </div>
